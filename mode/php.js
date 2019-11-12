@@ -1876,7 +1876,7 @@ var PhpLangHighlightRules = function() {
                 regex : /(?:#|\/\/)(?:[^?]|\?[^>])*/
             },{
                 token : "text",
-                regex : /:[a-zA-Z]:/
+                regex : ":[a-zA-Z]:"
             },
             docComment.getStartRule("doc-start"),
             {
